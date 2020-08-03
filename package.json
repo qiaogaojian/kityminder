@@ -1,0 +1,26 @@
+{
+  "main": "src/index.html",
+  "name": "KityMinder",
+  "description": "KityMinder",
+  "version": "1.0.0",
+  "keywords": [
+    "KityMinder",
+    "思维导图"
+  ],
+  "window": {
+    "title": "KityMinder",
+    "icon": "favicon.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 1366,
+    "height": 768,
+    "position": "center",
+    "min_width": 800,
+    "min_height": 600,
+    "show_in_taskbar": true
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "chromium-args": "–incognito"
+}
